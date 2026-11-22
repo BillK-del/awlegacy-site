@@ -1,18 +1,18 @@
-/* AWLegacy — navy / gold */
+/* AWLegacy — forest green / gold */
 :root {
-  --navy: #0b1c33;
-  --navy-deep: #071322;
-  --navy-mid: #163050;
-  --gold: #c4a35a;
-  --gold-light: #e8d5a3;
-  --gold-dim: #a6853d;
-  --cream: #f6f1e7;
-  --cream-dark: #ebe4d4;
-  --paper: #fcfaf6;
-  --ink: #1c1a16;
-  --muted: #5e5a52;
-  --line: rgba(196, 163, 90, 0.45);
-  --line-soft: rgba(11, 28, 51, 0.1);
+  --navy: #1A4224;
+  --navy-deep: #14361F;
+  --navy-mid: #1F4D2B;
+  --gold: #C9A227;
+  --gold-light: #E8C96A;
+  --gold-dim: #7A6410;
+  --cream: #F6F1E7;
+  --cream-dark: #EBE4D4;
+  --paper: #F8F5EE;
+  --ink: #1C1A16;
+  --muted: #5E5A52;
+  --line: rgba(201, 162, 39, 0.45);
+  --line-soft: rgba(26, 66, 36, 0.12);
   --serif: "Cormorant Garamond", Palatino, "Palatino Linotype", "Times New Roman", serif;
   --sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --max: 1080px;
@@ -101,7 +101,7 @@ a:hover { color: var(--gold-dim); }
 
 .hero {
   background:
-    radial-gradient(ellipse at 20% 0%, rgba(196,163,90,0.12), transparent 50%),
+    radial-gradient(ellipse at 20% 0%, rgba(201,162,39,0.12), transparent 50%),
     linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
   color: var(--cream);
   padding: 88px 28px 100px;
@@ -167,7 +167,7 @@ a:hover { color: var(--gold-dim); }
   background: transparent;
   color: var(--cream);
 }
-.btn-ghost:hover { background: rgba(196,163,90,0.15); color: var(--gold-light); }
+.btn-ghost:hover { background: rgba(201,162,39,0.15); color: var(--gold-light); }
 
 .section { padding: 80px 28px; }
 .section-inner { max-width: var(--max); margin: 0 auto; }
@@ -237,11 +237,11 @@ hr.gold {
   overflow: hidden;
   background-color: var(--navy);
   background-image:
-    linear-gradient(135deg, rgba(196,163,90,0.14) 0%, transparent 42%),
+    linear-gradient(135deg, rgba(201,162,39,0.14) 0%, transparent 42%),
     linear-gradient(180deg, var(--navy-mid) 0%, var(--navy-deep) 100%),
     repeating-linear-gradient(
       135deg,
-      rgba(196,163,90,0.08) 0 1px,
+      rgba(201,162,39,0.08) 0 1px,
       transparent 1px 18px
     );
   display: flex;
@@ -296,7 +296,7 @@ hr.gold {
 
 .page-hero {
   background:
-    radial-gradient(ellipse at 80% 0%, rgba(196,163,90,0.12), transparent 50%),
+    radial-gradient(ellipse at 80% 0%, rgba(201,162,39,0.12), transparent 50%),
     var(--navy);
   color: var(--cream);
   padding: 64px 28px 56px;
@@ -386,7 +386,7 @@ button[type="submit"] { justify-self: start; }
   justify-content: space-between;
   gap: 32px;
   flex-wrap: wrap;
-  border-bottom: 1px solid rgba(196,163,90,0.25);
+  border-bottom: 1px solid rgba(201,162,39,0.25);
   padding-bottom: 28px;
   margin-bottom: 20px;
 }
@@ -399,7 +399,7 @@ button[type="submit"] { justify-self: start; }
   flex-wrap: wrap;
   font-size: 12px;
   letter-spacing: 0.04em;
-  color: rgba(246,241,231,0.5);
+  color: rgba(246,241,231,0.56);
 }
 .footer-meta a {
   color: var(--gold-light);
